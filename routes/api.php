@@ -23,3 +23,15 @@ Route::group(['prefix' => 'v1','middleware' => 'auth:api'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_api_routes
 });
+
+
+/*
+GET /paquetes => index
+POST /paquetes => store
+GET /paquetes/create => form para crear
+
+GET /paquetes/:id => mostrar paquete con id
+GET /paquetes/:id/edit
+PUT/PATCH /paquetes/:id
+DELETE /paquetes/:id
+*/
